@@ -1,7 +1,8 @@
 {
   "name": "keygen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🪄 A Command Line Tool To Make random keys with different lengths for your different purposes.",
+  "type": "module",
   "main": "bin/index.js",
   "bin": {
     "kgjs": "bin/index.js"
@@ -24,7 +25,7 @@
   "homepage": "https://github.com/NimaCodez/keygen.js#readme",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0",
-    "commander": "^12.0.0"
+    "@clack/prompts": "^0.7.0",
+    "chalk": "^5.3.0"
   }
 }
