@@ -5,7 +5,7 @@
   "type": "module",
   "main": "bin/index.js",
   "bin": {
-    "kgjs": "bin/index.js"
+    "keygn": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
