@@ -7,7 +7,7 @@ import { randomBytes } from "node:crypto";
 async function main() {
 	p.intro(
 		`${chalk.bgBlue(
-			chalk.white(" KEYGEN.JS "),
+			chalk.white(" KEYGN "),
 		)}`,
 	);
 
@@ -74,7 +74,7 @@ async function main() {
 
 	p.outro(
 		`${chalk.bgBlue(
-			chalk.white(" KEYGEN.JS "),
+			chalk.white(" KEYGN "),
 		)} Made by NimaCodez.`,
 	);}
 
