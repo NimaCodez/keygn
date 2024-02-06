@@ -18,7 +18,6 @@ async function main() {
 			placeholder: "Press [Enter] if you want to use default (64 bytes)",
 			validate: value => {
 				if (isNaN(+value)) {
-					console.log('value: ', value)
 					return chalk.bgRed(chalk.black("Please enter a number"));
 				}
 			},
