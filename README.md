@@ -24,14 +24,13 @@ keygn
 ```
 
 1. First answer the first question about the length. (e.g `64` would generate a 64 byte key).
-![image](https://github.com/NimaCodez/keygn/assets/85389307/c46dacdf-c331-447d-ad0f-01a60a26f350)
+![image](https://github.com/NimaCodez/keygn/assets/85389307/f79a7e60-cdfa-45f6-8377-0f2b8a58e521)
 
 2. Then Choose how your key should be given to you. </br>
-![image](https://github.com/NimaCodez/keygn/assets/85389307/cf98cd0a-4262-463a-a091-d754deac6e24)
+![image](https://github.com/NimaCodez/keygn/assets/85389307/c6843af7-5cf2-4a77-9ca7-05f8953c7190)
 
 3. 👽 And Done!
-![image](https://github.com/NimaCodez/keygn/assets/85389307/ad438716-8627-4c7d-930e-a109825c1bd8)
-
+![image](https://github.com/NimaCodez/keygn/assets/85389307/8e80d51e-6e1f-485b-a6dd-87f44480fe12)
 
 <b><em>Tip: both questions have default values (64 for length adn Hexadecimal (hex) for key tyoe. So you can just press [Enter] and Chill 🦭
 
