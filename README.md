@@ -23,7 +23,7 @@ npm i -g keygn
 keygn
 ```
 
-1. First answer the first question about the length. (e.g `64` would generate a 64 byte key).
+1. Answer the first question about the length. (e.g `64` would generate a 64 byte key).
 ![image](https://github.com/NimaCodez/keygn/assets/85389307/f79a7e60-cdfa-45f6-8377-0f2b8a58e521)
 
 2. Then Choose how your key should be given to you. </br>
