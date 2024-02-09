@@ -7,7 +7,7 @@
 
 # Practices
 At First glance you'd say: "Ok, I will find a hard and meaning-less sentence and hash it using MD5 (horrible) or SHA family and use it as a secret (or salt). <b>*but this is actually a bad security practice.*</b> ❌
-Cause as you know all those senteces and words could be converted back to them readable way.
+Cause as you know all those senteces and words could be converted back to their readable way.
 
 ### ☹️ What should we do then?
 Aha! here you are.
