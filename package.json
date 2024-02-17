@@ -1,6 +1,6 @@
 {
   "name": "keygn",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "🪄 A Command Line Tool To Make random keys with different lengths for your different purposes.",
   "type": "module",
   "main": "bin/index.js",
@@ -26,6 +26,7 @@
   "license": "ISC",
   "dependencies": {
     "@clack/prompts": "^0.7.0",
-    "chalk": "^5.3.0"
+    "chalk": "^5.3.0",
+    "clipboardy": "^4.0.0"
   }
 }

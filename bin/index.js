@@ -3,6 +3,7 @@
 import * as p from "@clack/prompts";
 import chalk from "chalk";
 import { randomBytes } from "node:crypto";
+import clipboardy from "clipboardy";
 
 async function main() {
 	p.intro(
@@ -69,7 +70,11 @@ async function main() {
 	
 	randomBytes(+length, async (err, buffer) => {
 		if (err) throw err;
-		else process.stdout.end(`YOUR KEY: ${chalk.green(buffer.toString(type))}`);
+		else {
+			const key = buffer.toString(type);
+			await clipboardy.write(key);
+			process.stdout.end(`YOUR KEY: ${chalk.green(key)} (✨ Copied to clipboard)`)
+		};
 	});
 
 	p.outro(
