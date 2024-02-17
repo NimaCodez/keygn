@@ -36,5 +36,6 @@ keygn
 
 Sample Output:
 ```sh
-YOUR KEY: 3ba15c658a6c9c659908cb6893d9761a26e0641af33a0cb396a13d9e7b928c626882d3b050575b027da0717c48c745d633a5dfe7d4523aeea89648b508d864f9
+YOUR KEY: 3ba15c658a6c9c659908cb6893d9761a26e0641af33a0cb396a13d9e7b928c626882d3b050575b027da0717c48c745d633a5dfe7d4523aeea89648b508d864f9 (✨ Copied to clipboard)
 ```
+✨ The generated key is automatically copied to the clipboard.
