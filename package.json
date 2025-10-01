@@ -1,6 +1,6 @@
 {
   "name": "keygn",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "🪄 A Command Line Tool To Make random keys with different lengths for your different purposes.",
   "type": "module",
   "main": "bin/index.js",

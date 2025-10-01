@@ -32,10 +32,46 @@ keygn
 3. 👽 And Done!
 ![image](https://github.com/NimaCodez/keygn/assets/85389307/8e80d51e-6e1f-485b-a6dd-87f44480fe12)
 
-<b><em>Tip: both questions have default values (64 for length adn Hexadecimal (hex) for key type). So you can just press [Enter] and Chill 🦭
+<b><em>Tip: both questions have default values (64 for length adn Hexadecimal (hex) for key type). So you can just press [Enter] and Chill 🦭</b></em>
 
 Sample Output:
 ```sh
 YOUR KEY: 3ba15c658a6c9c659908cb6893d9761a26e0641af33a0cb396a13d9e7b928c626882d3b050575b027da0717c48c745d633a5dfe7d4523aeea89648b508d864f9 (✨ Copied to clipboard)
 ```
 ✨ The generated key is automatically copied to the clipboard.
+
+
+## 😎 Fast CLI Mode
+
+Skip prompts and generate keys instantly:
+```sh
+# Generate a 64-byte key (default hex) and save to mykey.txt
+keygn -b 64 --save mykey.txt
+
+# Generate a 32-byte base64 key and save to auto-generated file
+keygn -b 32 -t base64 --save
+
+```
+### 📂 File Saving
+
+If you use --save FILENAME.txt, the key will be written into that file.
+
+If you just use --save without filename, the key will be saved as:
+```
+key_YYYY-MM-DD_HH-mm-ss.txt
+```
+## ✨ Features
+
+- Generate random keys in different encodings(hex, base64, base64url, utf-8, ascii, binary, ucs2)
+
+- (1.0.5): Interactive mode with prompts
+
+- (1.0.5): Automatically copies the key to clipboard
+
+- NEW(v1.1.0): Save generated keys to a file
+
+- NEW(v1.1.0): CLI flags for quick key generation without prompts
+
+- NEW(v1.1.0): Automatic filename generation if none is provided
+
+- NEW(v1.1.0):Error handling for clipboard and file operations
